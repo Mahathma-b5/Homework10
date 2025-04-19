@@ -24,3 +24,23 @@ STEP 4: Access Swagger UI at : localhost/docs
 STEP 5: Access PGAdmin at : localhost:5050
 
 <img width="1440" alt="Screenshot 2025-04-19 at 6 29 36 PM" src="https://github.com/user-attachments/assets/475af9da-67cc-4452-a299-3021adf48ad3" />
+
+CLOSED ISSUES AND FIXES 
+
+1-PASSWORD VALIDATION 
+
+To enhance authentication security, we implemented comprehensive password validation that accurately detects incorrect credentials during login attempts and provides clear error feedback to assist users. Additionally, we addressed the issue of weak password acceptance by enforcing strong password policies—requiring a mix of uppercase, lowercase, numbers, and special characters—to prevent unauthorized access. This is further supported by backend validation during user registration to ensure all passwords meet the required complexity standards.
+
+Link to the Issue- 
+
+2-TOKEN REQUEST ISSUE
+
+To enhance both usability and security, the login system was updated by replacing traditional username-based authentication with email-based verification. Since email addresses are inherently unique and easier to remember, this change streamlines the login and verification process, making it more intuitive for users. It also eliminates confusion caused by duplicate or forgotten usernames. By leveraging email as the primary identifier, the system ensures more accurate user recognition and delivers a smoother, more efficient authentication experience overall.  
+
+Link to the Issue- 
+
+3- LOGIN PAGE ERROR FIX
+
+I noticed that when users entered wrong login info or if their account was locked, the error messages weren’t very clear. So I updated the login logic to show proper messages — like “Incorrect email or password” for invalid attempts and “Account locked” if they’ve tried too many times
+
+Link to the Issue- fixed login page #6
