@@ -155,3 +155,4 @@ async def test_unlock_user_account(db_session, locked_user):
     assert unlocked
     refreshed_user = await UserService.get_by_id(db_session, locked_user.id)
     assert not refreshed_user.is_locked
+    
