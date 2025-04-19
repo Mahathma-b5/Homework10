@@ -9,7 +9,7 @@ STEP 1: Fork the professor’s repository to your own GitHub account.
 
 STEP 2: Clone the forked repository to your local machine to start working on it.
 
-git clone: git@github.com:Mahathma-b5/Homework10.git
+git clone: https://github.com/Mahathma-b5/Homework10.git
 
 STEP 3: Start the application using Docker
 
