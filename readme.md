@@ -43,4 +43,30 @@ Link to the Issue-
 
 I noticed that when users entered wrong login info or if their account was locked, the error messages weren’t very clear. So I updated the login logic to show proper messages — like “Incorrect email or password” for invalid attempts and “Account locked” if they’ve tried too many times
 
-Link to the Issue- fixed login page #6
+Link to the Issue- https://github.com/Mahathma-b5/Homework10/pull/6
+
+4- JWT ACCESS TOKEN EXPIRY
+
+The login authentication previously failed for users with ADMIN and MANAGER roles due to issues in JWT token handling. This was resolved by correcting the token generation and authentication logic to properly recognize and validate user roles during login. Additionally, several Pytest-related errors were fixed to ensure seamless testing of authentication flows and email verification functionalities.
+
+Link to the Issue- https://github.com/Mahathma-b5/Homework10/pull/7
+
+5- URL VERIFICATION
+
+To enhance data integrity and input validation, strict URL checks were implemented to prevent submission of improperly formatted or invalid links. Unit tests were added to verify both valid and invalid URL scenarios. The system now returns clear and descriptive error messages when invalid URLs are detected, ensuring all provided URLs meet standard formatting rules and improving overall reliability.
+
+Link to the Issue- https://github.com/Mahathma-b5/Homework10/pull/8
+
+DOCKER HUB DEPLOYMENT:
+
+
+
+
+TESTING:
+
+
+
+REFLECTIONS:
+
+This project was a valuable opportunity to bridge theoretical knowledge with real-world API development. I deepened my understanding of FastAPI, asynchronous database handling, and Pydantic validation while also improving my debugging and problem-solving skills. Throughout the process, I tackled challenges such as inconsistent data examples, missing validations, and unhandled login errors by implementing standardized data, robust validation logic, clearer error handling, and endpoint security. I also integrated JWT-based authentication, managed database migrations with Alembic, and set up an operational CI/CD pipeline using Docker and GitHub Actions. These hands-on experiences have significantly strengthened my skillset and will be highly beneficial for future collaborative projects and professional development in the industry.
+
