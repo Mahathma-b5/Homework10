@@ -31,13 +31,13 @@ CLOSED ISSUES AND FIXES
 
 To enhance authentication security, we implemented comprehensive password validation that accurately detects incorrect credentials during login attempts and provides clear error feedback to assist users. Additionally, we addressed the issue of weak password acceptance by enforcing strong password policies—requiring a mix of uppercase, lowercase, numbers, and special characters—to prevent unauthorized access. This is further supported by backend validation during user registration to ensure all passwords meet the required complexity standards.
 
-Link to the Issue- 
+Link to the Issue- https://github.com/Mahathma-b5/Homework10/issues/3
 
 2-TOKEN REQUEST ISSUE
 
 To enhance both usability and security, the login system was updated by replacing traditional username-based authentication with email-based verification. Since email addresses are inherently unique and easier to remember, this change streamlines the login and verification process, making it more intuitive for users. It also eliminates confusion caused by duplicate or forgotten usernames. By leveraging email as the primary identifier, the system ensures more accurate user recognition and delivers a smoother, more efficient authentication experience overall.  
 
-Link to the Issue- 
+Link to the Issue- https://github.com/Mahathma-b5/Homework10/issues/2
 
 3- LOGIN PAGE ERROR FIX
 
