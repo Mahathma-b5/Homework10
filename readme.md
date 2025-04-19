@@ -64,6 +64,7 @@ DOCKER HUB DEPLOYMENT:
 
 TESTING:
 
+<img width="1035" alt="Screenshot 2025-04-19 at 7 39 44 PM" src="https://github.com/user-attachments/assets/1a170a66-0229-4322-a6ef-c11f9ea1c2b5" />
 
 
 REFLECTIONS:
